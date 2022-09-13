@@ -1,10 +1,10 @@
 import { useState } from "react";
 import Button from "../Utils/Category.png";
-import hotel from "../Utils/Hotels.png";
-import bar from "../Utils/Bars.png";
-import TC from "../Utils/Tourist centres.png";
-import mall from "../Utils/Malls.png";
-import restaurant from "../Utils/Restaurants.png";
+import hotel from "../Utils/Icons/Hotels.png";
+import bar from "../Utils/Icons/Bars.png";
+import TC from "../Utils/Icons/Tourist centres.png";
+import mall from "../Utils/Icons/Malls.png";
+import restaurant from "../Utils/Icons/Restaurants.png";
 
 const Categories = () => {
   const [showCategory, setShowCategory] = useState(false);

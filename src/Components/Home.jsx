@@ -1,7 +1,7 @@
 import Navigation from "./Navigation";
 import Hero from "./Hero";
 import Categories from "./Categories";
-import Hotels from "../CardComponents/Hotels";
+import Tourists from "../CardComponents/Tourists";
 
 export const Home = () => {
   return (
@@ -9,7 +9,7 @@ export const Home = () => {
       <Navigation />
       <Hero />
       <Categories />
-      <Hotels />
+      <Tourists />
     </div>
   );
 };
