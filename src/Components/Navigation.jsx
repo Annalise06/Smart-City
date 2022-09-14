@@ -3,7 +3,7 @@ import { BiSearch } from "react-icons/bi";
 
 const Navigation = () => {
   return (
-    <div className="flex h-14 lg:justify-between px-4 mx-30">
+    <div className="flex h-14 lg:justify-between px-4 mx-30 sticky top-0 bg-white">
       <div className="ml-28 text-3xl mt-3 text-center">
         <h2 className="font-nunito font-black">SmartCity</h2>
       </div>

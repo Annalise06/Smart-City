@@ -1,10 +1,11 @@
 import Home from "./Components/Home";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <Home />
-    </div>
+    <Routes>
+      <Route path="home" element={<Home />} />
+    </Routes>
   );
 }
 
