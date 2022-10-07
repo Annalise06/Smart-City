@@ -45,8 +45,8 @@ const Restaurant = () => {
   ];
 
   return (
-    <div className="mt-8">
-      <div className="mx-32 mt-32">
+    <div>
+      <div className="hidden lg:flex lg:mx-32">
         <p className="border-b border-gray-200 pb-1 font-black font-nunito mt-48">
           RESTAURANTS
         </p>

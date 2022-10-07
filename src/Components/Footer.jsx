@@ -4,7 +4,7 @@ import { BsFacebook } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className="flex mt-56 items-center border-t-2 border-gray-300">
+    <div className="hidden lg:flex mt-56 items-center border-t-2 border-gray-300 bg-slate-200">
       <div className="ml-20 mr-80 text-3xl mt-3 text-center">
         <h2 className="font-nunito font-black">SmartCity</h2>
       </div>

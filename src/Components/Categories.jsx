@@ -13,7 +13,7 @@ const Categories = () => {
     <div className="">
       <>
         {!showCategory ? (
-          <div className="lg:flex lg:ml-36 lg:mr-44 lg:border-b-2 lg:border-gray-200 lg:w-cover">
+          <div className="hidden lg:flex lg:ml-36 lg:mr-44 lg:border-b-2 lg:border-gray-200 lg:w-cover">
             <button
               onClick={() => setShowCategory(!showCategory)}
               className="lg:bg-white lg:focus:border lg:rounded-xl lg:mt-3 lg:ml-5 lg:mb-3 lg:mr-2 lg:border-gray-200 lg:focus:shadow-md"
@@ -25,7 +25,7 @@ const Categories = () => {
             </p>
           </div>
         ) : (
-          <div>
+          <div className="">
             <div className="lg:flex lg:ml-36 lg:mr-44 lg:border-b-2 lg:border-gray-200 lg:w-cover">
               <button
                 onClick={() => setShowCategory(!showCategory)}

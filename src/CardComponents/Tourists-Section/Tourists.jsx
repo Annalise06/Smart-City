@@ -42,11 +42,41 @@ const Tourist = () => {
     //   bod: "Lorem Ipsum",
     //   para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, deleniti!",
     // },
+    // {
+    //   id: 7,
+    //   imageUrl: img4,
+    //   bod: "Lorem Ipsum",
+    //   para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, deleniti!",
+    // },
+    // {
+    //   id: 8,
+    //   imageUrl: img4,
+    //   bod: "Lorem Ipsum",
+    //   para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, deleniti!",
+    // },
+    // {
+    //   id: 9,
+    //   imageUrl: img4,
+    //   bod: "Lorem Ipsum",
+    //   para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, deleniti!",
+    // },
+    // {
+    //   id: 10,
+    //   imageUrl: img4,
+    //   bod: "Lorem Ipsum",
+    //   para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, deleniti!",
+    // },
+    // {
+    //   id: 11,
+    //   imageUrl: img4,
+    //   bod: "Lorem Ipsum",
+    //   para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, deleniti!",
+    // },
   ];
 
   return (
     <div>
-      <div className="mx-32 mt-32">
+      <div className="hidden lg:flex lg:mx-32 lg:mt-5">
         <p className="border-b border-gray-200 pb-1 font-black font-nunito">
           TOURISTS CENTERS
         </p>

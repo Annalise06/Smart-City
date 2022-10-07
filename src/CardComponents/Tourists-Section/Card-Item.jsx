@@ -1,7 +1,12 @@
 import { AiOutlineStar, AiOutlineHeart } from "react-icons/ai";
+import MyModal from "../../Components/MyModal";
+import { useState } from "react";
 
 const CardItem = ({ cards }) => {
+  const [rateButton, setRateButton] = useState(false);
   const { imageUrl, bod, para } = cards;
+  const handleOnClose = () => setRateButton(false);
+
   return (
     <div className="h-52 w-56 mt-3 rounded-md">
       <img
@@ -12,7 +17,13 @@ const CardItem = ({ cards }) => {
       <div className="flex justify-between">
         <h2 className="font-semibold text-lg">{bod}</h2>
         <div className="flex gap-2 items-center text-gray-600 font-medium">
-          <AiOutlineStar size={15} />
+          <button
+            onClick={() => setRateButton(true)}
+            type="button"
+            className="focus:text-black"
+          >
+            <AiOutlineStar size={15} />
+          </button>
           <p className="text-sm">0.0</p>
         </div>
       </div>
@@ -22,6 +33,7 @@ const CardItem = ({ cards }) => {
         <AiOutlineHeart className="mt-1" size={15} />
         <p className="mt-1">100</p>
       </div>
+      <MyModal visible={rateButton} onClose={handleOnClose} />
     </div>
   );
 };
